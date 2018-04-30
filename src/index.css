@@ -1,0 +1,51 @@
+body {
+  padding: 25px;
+  font-family: 'Lato', sans-serif;
+  background: #f9f9f9;
+}
+
+.header {
+  font-weight: normal;
+  text-align: center;
+  font-size: 45px;
+  border-bottom: solid;
+  border-bottom-width: 2px;
+  padding-bottom: 5px;
+  border-bottom-color: rgba(0,0,0,.1);
+}
+
+.icon.title {
+  font-size: 30px;
+}
+
+.row.item.title {
+  padding-bottom: 0px;
+}
+
+#amount, #tip, #tax {
+  width: 150px;
+}
+
+.action-item {
+  width: 65px;
+}
+
+.price-item {
+  width: 90px;
+}
+
+.name-item {
+  width: 160px;
+}
+
+.download-bill {
+  margin-top: 10px;
+}
+
+tfoot > tr {
+  border-top-style: hidden;
+}
+
+tfoot > tr:first-child {
+  border-top-style: initial;
+}
